@@ -32,4 +32,3 @@ def test_answer(server_connection):
     assert header.opcode == G_PING_OPCODE
     assert header.body_len == G_BODY_LEN
     assert body.magic == msg[1].magic
-
